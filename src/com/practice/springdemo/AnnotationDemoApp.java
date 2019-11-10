@@ -2,7 +2,7 @@ package com.practice.springdemo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class AnnotationDemo {
+public class AnnotationDemoApp {
   public static void main(String[] args) {
 
     ClassPathXmlApplicationContext context =
