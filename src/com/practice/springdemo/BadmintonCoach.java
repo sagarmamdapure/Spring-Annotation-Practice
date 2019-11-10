@@ -3,9 +3,9 @@ package com.practice.springdemo;
 import org.springframework.stereotype.Component;
 
 @Component
-public class TennisCoach implements Coach {
+public class BadmintonCoach implements Coach {
     @Override
     public String getDailyWorkout() {
-        return "Practice your backhand";
+        return "Practice your forehand";
     }
 }
