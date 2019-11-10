@@ -8,4 +8,9 @@ public class BadmintonCoach implements Coach {
     public String getDailyWorkout() {
         return "Practice your forehand";
     }
+
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
 }
